@@ -1,0 +1,113 @@
+body {
+    background: #eaeaea;
+
+}
+
+form{
+    background: #fff;
+    margin: 20px 85px 20px 85px;
+    width: 70%;
+    padding: 15px 40px 20px 40px;
+    border: 1px solid #aaa;
+    border-radius: 10px
+}
+
+.main{
+    background: #fff;
+    margin: 50px auto;
+    width: 60%;
+    padding: 0px;
+    border: 1px solid #aaa;
+    border-radius: 10px
+}
+
+
+.tab p{
+    font-size: 20px;
+    margin: 0 0 10px 0; 
+    display: inline;
+    
+}
+.fade{
+    animation: fadeIn 2.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity:.1;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    font-size:17px;
+    border: 1px  solid #aaa;
+    border-radius: 5px;
+    font-sizing: border-box;
+}
+
+.index-btn-wrapper{
+    display:flex;
+    
+}
+
+.btn{
+    margin: 0px 10px 0px 0;
+    background: #04AA6D;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius:10px;
+}
+
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn--next{
+    margin: 0 0px 0 0px;
+}
+.step{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: green;
+    color: white;
+    border-radius: 50%;
+    line-height: 30px;
+    margin: 0 2px;
+    opacity: .25
+}
+
+.step--active{
+    opacity: 1
+}
+
+.buttons{
+    background: #fff;
+    margin: 20px 85px 20px 85px;
+    width: 70%;
+    padding: 15px 40px 20px 40px;
+    border: 1px solid #aaa;
+    border-radius: 10px
+}
+
+
+/* Visbility classes  */
+.btn--hide{
+    display: none;
+}
+
+.tab--hide{
+    display: none;
+}
